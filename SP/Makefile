@@ -190,7 +190,7 @@ USE_CODEC_VORBIS=1
 endif
 
 ifndef USE_CODEC_OPUS
-USE_CODEC_OPUS=1
+USE_CODEC_OPUS=0
 endif
 
 ifndef USE_MUMBLE
@@ -198,7 +198,7 @@ USE_MUMBLE=1
 endif
 
 ifndef USE_VOIP
-USE_VOIP=1
+USE_VOIP=0
 endif
 
 ifndef USE_FREETYPE
